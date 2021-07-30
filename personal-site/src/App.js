@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Intro from './Intro';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <Intro />
+      <Footer />
 
       <div className="App">
         <header className="App-header">
