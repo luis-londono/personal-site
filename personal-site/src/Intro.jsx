@@ -1,9 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Intro = () => {
+  var today = new Date();
+  var year = today.getFullYear();
+  var hourNow = today.getHours();
+  var howdy;
+  var slideIndex = 1;
+  const [greeting, setGreeting] = useState(null);
+
+  function welcome() {
+    if (hourNow > 18) {
+      howdy = 'Good evening!';
+    } else if (hourNow > 12) {
+      howdy = 'Good afternoon!';
+    } else if (hourNow >= 0) {
+      howdy = 'Good morning!';
+    } else {
+      howdy = '';
+    }
+    setGreeting(howdy);
+  }
+
+  useEffect(() => {
+    welcome();
+  }, []);
 
   return (
     <>
+      <h1 id="welcome">{greeting}</h1>
       <div>
         <p />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to my page! My name's Luis and I'm a software developer.
