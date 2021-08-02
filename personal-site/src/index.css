@@ -42,13 +42,13 @@ article {
   font-family: Bookman Old Style, "Times New Roman", serif;
 }
 
-/* #intro {
+#intro {
   background-image: url(images/luis.png);
   background-repeat: no-repeat;
   height: 150px;
   width: 700px;
   margin: 0 auto;
-} */
+}
 
 /* Create two equal columns that floats next to each other */
 .column {
@@ -133,7 +133,7 @@ article {
   border-radius: 8px;
 } */
 
-#nextbar {
+#nav {
   font-size: 14px;
   font-family: Bookman Old Style, georgia, serif;
   text-align: center;
@@ -213,9 +213,9 @@ a {
   }
 
   /* hide niko*/
-  #wire {
+  /* #wire {
     display: none;
-  }
+  } */
 
   #wrapper {
     min-width: 0;
