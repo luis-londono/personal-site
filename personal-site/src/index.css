@@ -1,19 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-/* 
-	Luis Londono Personal Site 
+/*  Luis Londono Personal Site 
 
 NOTES:
 	Padding: topPX rightPX bottomPX leftPX;
@@ -50,6 +35,19 @@ article {
   margin: 0 auto;
 }
 
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+a {
+  color: black !important;
+  text-decoration: none !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: large;
+}
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
@@ -63,6 +61,11 @@ article {
 
 .right {
   width: 40%;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .body-content {
@@ -185,13 +188,6 @@ footer {
   font-family: Bookman Old Style, "Times New Roman", serif;
   padding: 20px;
   margin-left: 30px;
-}
-
-a {
-  color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: large;
 }
 
 #neu {
