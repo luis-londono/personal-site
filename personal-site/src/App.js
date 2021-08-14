@@ -1,16 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import Intro from './Intro';
-import Header from './Header';
+// import logo from "./logo.svg";
+import "./App.css";
+import Intro from "./Intro";
+import Header from "./Header";
+// import Resume from "./Resume";
+// import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
-
   return (
     <>
-      <Header />
-      <Intro />
-
-      <div className="App">
+      <div id="wrapper">
+        <Header />
+        <Intro />
+        {/* <Resume /> */}
+        {/* <Contact /> */}
+        <Footer />
+      </div>
+      {/* <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -25,7 +31,7 @@ function App() {
             Learn React
           </a>
         </header>
-      </div>
+      </div> */}
     </>
   );
 }

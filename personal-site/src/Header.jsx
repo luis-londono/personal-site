@@ -1,9 +1,19 @@
-import React from 'react';
-import luis from '../src/images/luis.png'
+import React from "react";
 
 const Header = () => {
   return (
-    <img alt="header" src={luis} />
+    <>
+      <div id="intro" />
+      <div id="nav">
+        <nav>
+          <a href="">Home</a>
+          {" | "}
+          <a href="">Resume</a>
+          {" | "}
+          <a href="">Contact</a>
+        </nav>
+      </div>
+    </>
   );
 };
 
