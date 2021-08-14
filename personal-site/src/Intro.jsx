@@ -60,7 +60,12 @@ const Intro = () => {
             <p />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortly after graduating from the
             University of Missouri-Kansas City, I found a really great job at
-            <a id="neu" href="https://www.neuanalytics.com">
+            <a
+              id="neu"
+              href="https://www.neuanalytics.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {" "}
               NeuAnalytics
             </a>{" "}
