@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -6,17 +6,29 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <a href="mailto:lulondono08@gmail.com">
+        <a
+          href="mailto:lulondono08@gmail.com"
+          target="_blank"
+          without
+          rel="noreferrer"
+        >
           <i class="fa fa-envelope" style={{ fontSize: "50px" }}></i>
         </a>
         &nbsp;
-        <a href="https://github.com/luis-londono" target="_blank">
+        <a
+          href="https://github.com/luis-londono"
+          target="_blank"
+          without
+          rel="noreferrer"
+        >
           <i class="fa fa-github" style={{ fontSize: "50px" }}></i>
         </a>
         &nbsp;
         <a
           href="https://www.linkedin.com/in/luis-londono-89614445/"
           target="_blank"
+          without
+          rel="noreferrer"
         >
           <i class="fa fa-linkedin" style={{ fontSize: "50px" }}></i>
         </a>
