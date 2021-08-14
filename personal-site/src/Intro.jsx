@@ -10,53 +10,53 @@ const Intro = () => {
 
   function welcome() {
     if (hour > 18) {
-      howdy = "Good evening!";
+      howdy = "Good Evening!";
     } else if (hour > 12) {
-      howdy = "Good afternoon!";
+      howdy = "Good Afternoon!";
     } else if (hour >= 0) {
-      howdy = "Good morning!";
+      howdy = "Good Morning!";
     } else {
       howdy = "";
     }
     setGreeting(howdy);
   }
 
-  function nextImage() {
-    showNextImage(slideIndex);
-  }
+  // function nextImage() {
+  //   showNextImage(slideIndex);
+  // }
 
-  function showNextImage(n) {
-    var x = document.getElementsByClassName("mySlides");
-    if (x.length > 0) {
-      if (n > x.length) {
-        slideIndex = 1;
-      }
-      if (n < 1) {
-        slideIndex = x.length;
-      }
-      for (var i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-      }
-      x[slideIndex - 1].style.display = "block";
-      setSlideIndex(slideIndex + 1);
-    }
-  }
+  // function showNextImage(n) {
+  //   var x = document.getElementsByClassName("mySlides");
+  //   if (x.length > 0) {
+  //     if (n > x.length) {
+  //       slideIndex = 1;
+  //     }
+  //     if (n < 1) {
+  //       slideIndex = x.length;
+  //     }
+  //     for (var i = 0; i < x.length; i++) {
+  //       x[i].style.display = "none";
+  //     }
+  //     x[slideIndex - 1].style.display = "block";
+  //     setSlideIndex(slideIndex + 1);
+  //   }
+  // }
 
   useEffect(() => {
     welcome();
-    showNextImage(1);
+    // showNextImage(1);
   }, []);
 
   return (
     <>
-      <div id="wrapper">
+      <div className="container body-content">
         <h1 id="welcome">{greeting}</h1>
-        <div class="row">
-          <div class="col-md-5">
+        <div className="row">
+          <div className="col-md-5">
             <p />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to my page! My name's Luis and
-            I'm a software developer. I"ve been professionaly writing code since
-            2015 and absolutely love what I do!
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name's Luis and I'm a software
+            developer. I've been professionaly writing code since 2015 and
+            absolutely love what I do!
             <p />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortly after graduating from the
             University of Missouri-Kansas City, I found a really great job at
@@ -82,21 +82,21 @@ const Intro = () => {
           </div>
 
           <div className="col-md-7">
-            <div className="w3-content">
+            <div className="w3-content w3-display-container">
               <img className="mySlides" src={niko} />
-              <img className="mySlides" src={katherine_and_i} />
-              <button
-                className="w3-content w3-display-left"
+              {/* <img className="mySlides" src={katherine_and_i} /> */}
+              {/* <button
+                className="w3-button w3-black w3-display-left"
                 onClick={() => nextImage()}
               >
                 &#10094;
               </button>
               <button
-                className="w3-content w3-display-right"
+                className="w3-button w3-black w3-display-right"
                 onClick={() => nextImage()}
               >
                 &#10095;
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
