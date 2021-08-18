@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import niko from "../src/images/niko.jpg";
+// import niko from "../src/images/niko.jpg";
+import headshot from "../src/images/headshot.jpg";
 import katherine_and_i from "../src/images/katherine_and_i.jpg";
 
 const Intro = () => {
@@ -52,11 +53,12 @@ const Intro = () => {
       <div className="container body-content">
         <h1 id="welcome">{greeting}</h1>
         <div className="row">
-          <div className="col-md-5">
+          <div className="col-md-6">
             <p />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name's Luis and I'm a software
-            developer. I've been professionaly writing code since 2015 and
-            absolutely love what I do!
+            developer. I've been professionaly writing
+            <code id="code"> &lt;code/&gt; </code>
+            since 2015 and absolutely love what I do!
             <p />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortly after graduating from the
             University of Missouri-Kansas City, I found a really great job at
@@ -80,25 +82,17 @@ const Intro = () => {
             <p />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks for visiting my page!
           </div>
-
-          <div className="col-md-7">
-            <div className="w3-content w3-display-container">
-              <img className="mySlides" src={niko} />
-              {/* <img className="mySlides" src={katherine_and_i} /> */}
-              {/* <button
-                className="w3-button w3-black w3-display-left"
-                onClick={() => nextImage()}
-              >
-                &#10094;
-              </button>
-              <button
-                className="w3-button w3-black w3-display-right"
-                onClick={() => nextImage()}
-              >
-                &#10095;
-              </button> */}
-            </div>
+          <div className="col-md-6">
+            <p />
+            <img id="headshot" src={headshot}></img>
           </div>
+          {/* <div className="col-md-7">
+            <img id="headshot" src={headshot}></img>
+            {/* <div id="headshot"></div> */}
+          {/* </div> */}
+          {/* <div className="col-md-7">
+            <div id="niko"></div>
+          </div> */}
         </div>
       </div>
     </>
