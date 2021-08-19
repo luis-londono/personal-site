@@ -353,4 +353,8 @@ footer {
   footer {
     margin-left: 0;
   }
+
+  .body-content {
+    margin-left: 0px;
+  }
 }
