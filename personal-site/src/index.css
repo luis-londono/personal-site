@@ -68,8 +68,12 @@ article {
   margin-left: -15px;
 }
 
+.footer {
+  color: black;
+}
+
 a {
-  color: black !important;
+  color: black;
   text-decoration: none !important;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
@@ -165,12 +169,14 @@ body {
 } */
 
 #nav {
-  font-size: 24px;
+  font-size: 26px;
   font-family: Bookman Old Style, georgia, serif;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
 }
 
 #resume {
@@ -185,6 +191,7 @@ body {
 }
 
 nav a {
+  color: white;
   font-size: 0.75em;
   font-family: Bookman Old Style, "Times New Roman", serif;
   padding: 10px 10px 10px 10px;
@@ -196,10 +203,10 @@ nav a:hover {
   border-radius: 15px;
 }
 
-h1 {
+/* h1 {
   font-family: Bookman Old Style, "Times New Roman", serif;
   font-size: 16px;
-}
+} */
 
 main {
   background-color: #ffffff;
@@ -220,6 +227,7 @@ footer {
 }
 
 #neu {
+  color: black !important;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: medium;
   font-style: italic;
@@ -236,7 +244,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
   border-radius: 15px;
   /* padding-top: 25px; */
   /* float: right; */
@@ -338,6 +346,7 @@ footer {
   } */
 
   nav {
+    font-size: 20px;
     padding: 0;
   }
 

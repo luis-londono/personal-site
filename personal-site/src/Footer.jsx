@@ -5,8 +5,9 @@ const Footer = () => {
 
   return (
     <>
-      <footer>
+      <footer id="footer">
         <a
+          className="footer"
           href="mailto:lulondono08@gmail.com"
           target="_blank"
           without
@@ -16,6 +17,7 @@ const Footer = () => {
         </a>
         &nbsp;
         <a
+          className="footer"
           href="https://github.com/luis-londono"
           target="_blank"
           without
@@ -25,6 +27,7 @@ const Footer = () => {
         </a>
         &nbsp;
         <a
+          className="footer"
           href="https://www.linkedin.com/in/luis-londono-89614445/"
           target="_blank"
           without

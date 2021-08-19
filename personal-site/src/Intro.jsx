@@ -70,8 +70,9 @@ const Intro = () => {
             >
               {" "}
               NeuAnalytics
-            </a>{" "}
-            where I've had the opportunity to work with some amazing mentors and
+            </a>
+            {". "}
+            I've had the opportunity to work with some amazing mentors and
             advance my career in the Fintech industry. I'm excited for the
             future and I try and push myself to become a better developer each
             day.
@@ -82,7 +83,7 @@ const Intro = () => {
             <p />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks for visiting my page!
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <p />
             <img id="headshot" src={headshot}></img>
           </div>
