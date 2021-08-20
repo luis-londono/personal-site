@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from "react";
-// import niko from "../src/images/niko.jpg";
 import headshot from "../src/images/headshot.jpg";
-import katherine_and_i from "../src/images/katherine_and_i.jpg";
 
 const Intro = () => {
   var howdy;
   var hour = new Date().getHours();
   const [greeting, setGreeting] = useState(null);
-  let [slideIndex, setSlideIndex] = useState(1);
 
   function welcome() {
     if (hour > 18) {
@@ -22,30 +19,8 @@ const Intro = () => {
     setGreeting(howdy);
   }
 
-  // function nextImage() {
-  //   showNextImage(slideIndex);
-  // }
-
-  // function showNextImage(n) {
-  //   var x = document.getElementsByClassName("mySlides");
-  //   if (x.length > 0) {
-  //     if (n > x.length) {
-  //       slideIndex = 1;
-  //     }
-  //     if (n < 1) {
-  //       slideIndex = x.length;
-  //     }
-  //     for (var i = 0; i < x.length; i++) {
-  //       x[i].style.display = "none";
-  //     }
-  //     x[slideIndex - 1].style.display = "block";
-  //     setSlideIndex(slideIndex + 1);
-  //   }
-  // }
-
   useEffect(() => {
     welcome();
-    // showNextImage(1);
   }, []);
 
   return (
@@ -87,13 +62,6 @@ const Intro = () => {
             <p />
             <img id="headshot" src={headshot}></img>
           </div>
-          {/* <div className="col-md-7">
-            <img id="headshot" src={headshot}></img>
-            {/* <div id="headshot"></div> */}
-          {/* </div> */}
-          {/* <div className="col-md-7">
-            <div id="niko"></div>
-          </div> */}
         </div>
       </div>
     </>
