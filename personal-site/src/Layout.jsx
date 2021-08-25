@@ -5,7 +5,6 @@ import banner from "../src/images/luis_banner.png";
 const Layout = () => {
   return (
     <>
-      {/* <div id="intro" /> */}
       <img id="banner" src={banner}></img>
       <div id="nav">
         <nav>

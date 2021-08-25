@@ -61,6 +61,13 @@ article {
   color: black;
 }
 
+::selection {
+  background: #cccccc; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #cccccc; /* Gecko Browsers */
+}
+
 a {
   color: black;
   text-decoration: none !important;
@@ -124,6 +131,7 @@ body {
 }
 
 nav a {
+  /* text-decoration: none !important; */
   color: white;
   font-size: 0.75em;
   font-family: Bookman Old Style, "Times New Roman", serif;
@@ -131,7 +139,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #dee1e6;
+  background-color: #cccccc;
+  color: white;
   transform: scale(1.4);
   border-radius: 15px;
 }
@@ -152,6 +161,10 @@ footer {
   font-family: Bookman Old Style, "Times New Roman", serif;
   padding: 20px;
   margin-left: 30px;
+}
+
+footer a:hover {
+  color: #cccccc;
 }
 
 #neu {
