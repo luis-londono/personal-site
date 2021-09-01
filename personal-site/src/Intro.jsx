@@ -8,11 +8,11 @@ const Intro = () => {
 
   function welcome() {
     if (hour > 18) {
-      howdy = "Good Evening!";
+      howdy = "Good Evening! 🌃";
     } else if (hour > 12) {
-      howdy = "Good Afternoon!";
+      howdy = "Good Afternoon! 🌤";
     } else if (hour >= 0) {
-      howdy = "Good Morning!";
+      howdy = "Good Morning! 🌞";
     } else {
       howdy = "";
     }
@@ -28,15 +28,15 @@ const Intro = () => {
       <div className="container body-content">
         <h1 id="welcome">{greeting}</h1>
         <div className="row">
-          <div className="col-md-6">
+          <div id="description" className="col-md-6">
             <p />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name's Luis and I'm a software
-            developer. I've been professionaly writing
+            My name's Luis and I'm a software developer. I've been professionaly
+            writing
             <code id="code"> &lt;code/&gt; </code>
             since 2015 and absolutely love what I do!
             <p />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shortly after graduating from the
-            University of Missouri-Kansas City, I found a really great job at
+            Shortly after graduating from the University of Missouri-Kansas
+            City, I found a really great job at
             <a
               id="neu"
               href="https://www.neuanalytics.com"
@@ -52,11 +52,10 @@ const Intro = () => {
             future and I try and push myself to become a better developer each
             day.
             <p />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I love spending my time with family,
-            hanging out with my friends, traveling the and supporting local
-            Kansas City sports teams.
+            I love spending my time with family, hanging out with my friends,
+            traveling the and supporting local Kansas City sports teams.
             <p />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks for visiting my page!
+            Thanks for visiting my page!
           </div>
           <div className="col-md-5">
             <p />

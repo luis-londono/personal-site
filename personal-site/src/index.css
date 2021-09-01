@@ -266,4 +266,9 @@ footer a:hover {
   .body-content {
     margin-left: 0px;
   }
+
+  #description {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

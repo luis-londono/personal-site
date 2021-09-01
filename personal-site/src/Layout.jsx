@@ -11,7 +11,7 @@ const Layout = () => {
           <Link href="/">
             <i class="fa fa-home" aria-hidden="true"></i> Home
           </Link>{" "}
-          |
+          |{" "}
           <Link href="/resume">
             <i class="fa fa-file" aria-hidden="true"></i> Resume
           </Link>{" "}
