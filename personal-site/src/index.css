@@ -1,17 +1,9 @@
-/*  Luis Londono Personal Site 
+/*  
+Luis Londono Personal Site!
 
-NOTES:
-	Padding: topPX rightPX bottomPX leftPX;
-    . class
-    # id
+credits: 
+  spinning earth emoji by George Park
 
-    responsive images tip: 
-
-img {
-  max-width: 100%;
-  height: auto;
-  margin 0 0 10px 0;
-}
 */
 
 header,
@@ -310,5 +302,34 @@ footer a:hover {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+  }
+}
+
+.emoji {
+  font-size: 22px;
+  margin: 6px 5px 6px 5px;
+  text-align: center;
+}
+
+.emoji::after {
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.earth::after {
+  content: "🌎";
+  --emoji-1: "🌍";
+  --emoji-2: "🌏";
+  animation-name: threeFrames;
+  animation-duration: 1.5s;
+}
+
+@keyframes threeFrames {
+  33.333% {
+    content: var(--emoji-1);
+  }
+
+  66.666% {
+    content: var(--emoji-2);
   }
 }

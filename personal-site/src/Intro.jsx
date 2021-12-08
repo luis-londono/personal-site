@@ -53,7 +53,9 @@ const Intro = () => {
             day.
             <p />
             I love spending my time with family, hanging out with my friends,
-            traveling the 🌎 and supporting local Kansas City sports teams.
+            traveling the
+            <span class="emoji earth" />
+            and supporting local Kansas City sports teams.
             <p />
             Thanks for visiting my page!
           </div>
