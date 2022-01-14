@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "./Link";
 import banner from "../src/images/luis_banner.png";
+import resume from "../src/images/resume.pdf";
 
 const Layout = () => {
   return (
@@ -12,9 +13,9 @@ const Layout = () => {
             <i class="fa fa-home" aria-hidden="true"></i> Home
           </Link>{" "}
           |{" "}
-          <Link href="/resume">
+          <a href={resume} target="_blank">
             <i class="fa fa-file" aria-hidden="true"></i> Resume
-          </Link>{" "}
+          </a>{" "}
           |
           <Link href="/contact">
             <i class="fa fa-phone" aria-hidden="true"></i> Contact
