@@ -12,9 +12,6 @@ const Resume = () => {
       <br />
       <div className="container-btn">
         <div className="center">
-          {/* <button className="btn-download" onClick={buttonClick}>
-            Download <i class="fa fa-download"></i>
-          </button> */}
           <a
             class="btn-download"
             role="button"
