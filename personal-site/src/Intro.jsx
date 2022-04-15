@@ -25,7 +25,7 @@ const Intro = () => {
 
   return (
     <>
-      <div className="container-fluid">
+      <div className="container">
         <h1 id="welcome">{greeting}</h1>
         <div className="row">
           <div id="description" className="col-md-6">
