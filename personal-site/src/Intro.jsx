@@ -59,7 +59,7 @@ const Intro = () => {
             <p />
             Thanks for visiting my page!
           </div>
-          <div className="col-md-5">
+          <div className="col-md-6">
             <p />
             <img id="headshot" src={headshot}></img>
           </div>
