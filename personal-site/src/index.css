@@ -84,13 +84,8 @@ a {
 }
 
 body {
-  /* border: 5px solid red; */
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.body-content {
-  margin-left: 70px;
 }
 
 /* Clear floats after the columns */

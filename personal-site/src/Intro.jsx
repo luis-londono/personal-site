@@ -25,7 +25,7 @@ const Intro = () => {
 
   return (
     <>
-      <div className="container body-content">
+      <div className="container">
         <h1 id="welcome">{greeting}</h1>
         <div className="row">
           <div id="description" className="col-md-6">
@@ -59,7 +59,7 @@ const Intro = () => {
             <p />
             Thanks for visiting my page!
           </div>
-          <div className="col-md-5">
+          <div className="col-md-6">
             <p />
             <img id="headshot" src={headshot}></img>
           </div>
