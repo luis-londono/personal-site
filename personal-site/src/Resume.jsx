@@ -1,5 +1,4 @@
 import React from "react";
-import Iframe from "./components/Iframe.jsx";
 import resume from "../src/images/resume.pdf";
 
 const Resume = () => {
@@ -7,7 +6,17 @@ const Resume = () => {
     <div className="container body-content">
       <h1>Resume</h1>
       <div id="cv">
-        <Iframe source={resume} />
+        <div className="col-md-12">
+          <div className="emdeb-responsive">
+            <iframe
+              title="resume"
+              src={resume}
+              width="900"
+              height="600"
+              style={{ textAlign: "center", marginLeft: "60px" }}
+            ></iframe>
+          </div>
+        </div>
       </div>
       <br />
       <div className="container-btn">

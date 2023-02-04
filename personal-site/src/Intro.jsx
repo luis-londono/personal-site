@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import headshot from "../src/images/headshot.jpg";
 
 const Intro = () => {
-  var howdy;
-  var hour = new Date().getHours();
   const [greeting, setGreeting] = useState(null);
+  let howdy;
+  let hour = new Date().getHours();
 
-  function welcome() {
+  const welcome = () => {
     if (hour > 18) {
       howdy = "Good Evening! 🌃";
     } else if (hour > 12) {
@@ -17,11 +17,11 @@ const Intro = () => {
       howdy = "";
     }
     setGreeting(howdy);
-  }
+  };
 
   useEffect(() => {
     welcome();
-  }, []);
+  });
 
   return (
     <>
@@ -39,6 +39,7 @@ const Intro = () => {
             City, I found a really great job at
             <a
               id="neu"
+              className="job-link"
               href="https://www.neuanalytics.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,11 +47,23 @@ const Intro = () => {
               {" "}
               NeuAnalytics
             </a>
-            {". "}
-            I've had the opportunity to work with some amazing mentors and
-            advance my career in the Fintech industry. I'm excited for the
-            future and I try and push myself to become a better developer each
-            day.
+            {" "}
+            as a Software Developer. In August of 2022, I
+            began working at{" "}
+            <a
+              id="psi"
+              className="job-link"
+              href="https://www.psiexams.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              PSI
+            </a>{" "}
+            as a Senior Software Engineer. I have been lucky to work with
+            incredible talent and strive to achieve my career goals. I'm excited
+            for the future and I try and push myself to become a better
+            developer each day.
             <p />
             I love spending my time with family, hanging out with my friends,
             traveling the
@@ -61,7 +74,7 @@ const Intro = () => {
           </div>
           <div className="col-md-6">
             <p />
-            <img id="headshot" src={headshot}></img>
+            <img id="headshot" src={headshot} alt="headshot"></img>
           </div>
         </div>
       </div>

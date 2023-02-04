@@ -1,29 +1,29 @@
 import React from "react";
-import Link from "./Link";
+import { NavLink } from "react-router-dom";
 import banner from "../src/images/luis_banner.png";
 import resume from "../src/images/resume.pdf";
 
-const Layout = () => {
+const Header = () => {
   return (
     <>
-      <img id="banner" src={banner}></img>
+      <img id="banner" src={banner} alt="Luis Londono"></img>
       <div id="nav">
         <nav>
-          <Link href="/">
+          <NavLink to="/">
             <i class="fa fa-home" aria-hidden="true"></i> Home
-          </Link>{" "}
+          </NavLink>{" "}
           |{" "}
-          <a href={resume} target="_blank">
+          <a href={resume} target="_blank" without rel="noreferrer">
             <i class="fa fa-file" aria-hidden="true"></i> Resume
           </a>{" "}
           |
-          <Link href="/contact">
+          <NavLink to="/contact">
             <i class="fa fa-phone" aria-hidden="true"></i> Contact
-          </Link>
+          </NavLink>
         </nav>
       </div>
     </>
   );
 };
 
-export default Layout;
+export default Header;
