@@ -46,10 +46,9 @@ const Intro = () => {
             >
               {" "}
               NeuAnalytics
-            </a>
-            {" "}
-            as a Software Developer. In August of 2022, I
-            began working at{" "}
+            </a>{" "}
+            as a Software Developer and Team Lead. In August of 2022, I began
+            working at{" "}
             <a
               id="psi"
               className="job-link"
@@ -60,14 +59,12 @@ const Intro = () => {
               {" "}
               PSI
             </a>{" "}
-            as a Senior Software Engineer. I have been lucky to work with
-            incredible talent and strive to achieve my career goals. I'm excited
-            for the future and I try and push myself to become a better
-            developer each day.
+            as a Senior Software Engineer. I'm excited for the future and I try
+            and push myself to become a better developer each day.
             <p />
             I love spending my time with family, hanging out with my friends,
             traveling the
-            <span class="emoji earth" />
+            <span className="emoji earth" />
             and supporting local Kansas City sports teams.
             <p />
             Thanks for visiting my page!

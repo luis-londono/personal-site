@@ -22,12 +22,12 @@ const Resume = () => {
       <div className="container-btn">
         <div className="center">
           <a
-            class="btn-download"
+            className="btn-download"
             role="button"
             href={resume}
             download="luis_londono"
           >
-            Download <i class="fa fa-download"></i>
+            Download <i className="fa fa-download"></i>
           </a>
         </div>
       </div>

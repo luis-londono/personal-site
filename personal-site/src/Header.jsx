@@ -10,15 +10,15 @@ const Header = () => {
       <div id="nav">
         <nav>
           <NavLink to="/">
-            <i class="fa fa-home" aria-hidden="true"></i> Home
+            <i className="fa fa-home" aria-hidden="true"></i> Home
           </NavLink>{" "}
           |{" "}
-          <a href={resume} target="_blank" without rel="noreferrer">
-            <i class="fa fa-file" aria-hidden="true"></i> Resume
+          <a href={resume} target="_blank" rel="noreferrer">
+            <i className="fa fa-file" aria-hidden="true"></i> Resume
           </a>{" "}
           |
           <NavLink to="/contact">
-            <i class="fa fa-phone" aria-hidden="true"></i> Contact
+            <i className="fa fa-phone" aria-hidden="true"></i> Contact
           </NavLink>
         </nav>
       </div>
