@@ -1,4 +1,4 @@
-import "./App.css";
+import "./app.scss";
 import Header from "./Header";
 import Footer from "./Footer";
 import Routing from "./Routing";
