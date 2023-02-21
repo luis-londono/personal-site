@@ -55,10 +55,10 @@ article {
 }
 
 ::selection {
-  background: #cccccc; /* WebKit/Blink Browsers */
+  background: $lighter-grey; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #cccccc; /* Gecko Browsers */
+  background: $lighter-grey; /* Gecko Browsers */
 }
 
 a {
@@ -104,7 +104,14 @@ body {
   letter-spacing: 0px;
   margin-bottom: 20px;
   background-color: $black;
-  color: white;
+  color: $white;
+  border-color: $lighter-grey !important;
+  border-width: 10px;
+  border: solid;
+}
+
+.vertical-pipe{
+  color: $lighter-grey;
 }
 
 #resume {
@@ -120,21 +127,21 @@ body {
 
 nav a {
   /* text-decoration: none !important; */
-  color: white;
+  color: $white;
   font-size: 0.75em;
   font-family: Bookman Old Style, "Times New Roman", serif;
   padding: 10px 10px 10px 10px;
 }
 
 nav a:hover {
-  background-color: #cccccc;
-  color: white;
-  transform: scale(1.4);
-  border-radius: 15px;
+  // background-color: $lighter-grey;
+  color: $lighterw-grey;
+  // transform: scale(1.4);
+  // border-radius: 15px;
 }
 
 main {
-  background-color: #ffffff;
+  background-color: $white;
   padding: 25px 150px 200px 150px;
   min-height: 550px;
   display: block;
@@ -152,7 +159,7 @@ footer {
 }
 
 footer a:hover {
-  color: #cccccc;
+  color: $lighter-grey;
 }
 
 .job-link {
@@ -269,7 +276,7 @@ footer a:hover {
 
   .btn-download {
     display: block;
-    background-color: white !important;
+    background-color: $white !important;
     border: none !important;
     color: $black !important;
     padding: 12px 30px !important;
@@ -279,7 +286,7 @@ footer a:hover {
 
   /* Darker background on mouse-over */
   .btn-download:hover {
-    background-color: #cccccc !important;
+    background-color: $lighter-grey !important;
     transform: scale(1.1);
     border-radius: 15px;
   }
