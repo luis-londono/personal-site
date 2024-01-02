@@ -4,8 +4,10 @@ import Footer from "./Footer";
 import Routing from "./Routing";
 import ReactGA from 'react-ga';
 
+  // G-8HFGBY4GR4
+
 function App() {
-  ReactGA.initialize('G-8HFGBY4GR4');
+  ReactGA.initialize('GT-P3JRQVG');
 
   return (
     <>
