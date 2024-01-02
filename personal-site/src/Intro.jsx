@@ -4,8 +4,8 @@ import { useLocation } from "react-router-dom";
 import ReactGA from "react-ga";
 
 const Intro = () => {
-  ReactGA.initialize('G-8HFGBY4GR4');
-  
+  ReactGA.initialize('G-R3FLXSY8JP');
+
   const location = useLocation();
 
   useEffect(() => {
