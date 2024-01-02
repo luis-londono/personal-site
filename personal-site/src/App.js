@@ -5,7 +5,7 @@ import Routing from "./Routing";
 import ReactGA from 'react-ga';
 
 function App() {
-  ReactGA.initialize('G-7VXVSVYJR5');
+  ReactGA.initialize('G-8HFGBY4GR4');
 
   return (
     <>
