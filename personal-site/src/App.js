@@ -7,7 +7,7 @@ import ReactGA from 'react-ga';
   // G-8HFGBY4GR4
 
 function App() {
-  ReactGA.initialize('GT-P3JRQVG');
+  ReactGA.initialize('G-8HFGBY4GR4');
 
   return (
     <>
