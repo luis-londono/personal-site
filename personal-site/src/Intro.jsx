@@ -1,32 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import headshot from "../src/images/headshot.jpg";
+import { useLocation } from "react-router-dom";
+import ReactGA from "react-ga";
 
 const Intro = () => {
-  const [greeting, setGreeting] = useState(null);
-  let howdy;
-  let hour = new Date().getHours();
-
-  const welcome = () => {
-    if (hour > 18) {
-      howdy = "Good Evening! 🌃";
-    } else if (hour > 12) {
-      howdy = "Good Afternoon! 🌤";
-    } else if (hour >= 0) {
-      howdy = "Good Morning! 🌞";
-    } else {
-      howdy = "";
-    }
-    setGreeting(howdy);
-  };
+  const location = useLocation();
 
   useEffect(() => {
-    welcome();
-  });
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
 
   return (
     <>
       <div className="container">
-        <h1 id="welcome">{greeting}</h1>
+        <Greeting />
         <div className="row">
           <div id="description" className="col-md-6">
             <p />
@@ -80,3 +67,22 @@ const Intro = () => {
 };
 
 export default Intro;
+
+const Greeting = () => {
+  const hour = new Date().getHours();
+
+  const howdy =
+    hour > 18
+      ? "Good Evening! 🌃"
+      : hour > 12
+      ? "Good Afternoon! 🌤"
+      : hour >= 0
+      ? "Good Morning! 🌞"
+      : "Hello!";
+
+  return (
+    <>
+      <h1 id="welcome">{howdy}</h1>
+    </>
+  );
+};
