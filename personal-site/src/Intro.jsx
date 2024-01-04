@@ -1,17 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import headshot from "../src/images/headshot.jpg";
-import { useLocation } from "react-router-dom";
-import ReactGA from "react-ga";
 
 const Intro = () => {
-  ReactGA.initialize('G-R3FLXSY8JP');
-
-  const location = useLocation();
-
-  useEffect(() => {
-    ReactGA.pageview(location.pathname + location.search);
-  }, [location]);
-
   return (
     <>
       <div className="container">
