@@ -2,6 +2,9 @@ import React from "react";
 import headshot from "../src/images/headshot.jpg";
 
 const Intro = () => {
+
+  // console.log('test')
+
   return (
     <>
       <div className="container">

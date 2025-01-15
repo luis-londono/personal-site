@@ -1,5 +1,5 @@
 import React from "react";
-import Intro from './Intro';
+import Intro from "./Intro";
 import Resume from "./Resume";
 import Contact from "./Contact";
 import { Routes, Route } from "react-router-dom";
