@@ -1,3 +1,3 @@
 # personal-site
 
-https://lulondono.dev/ -- changing domain
+https://luis-londono.github.io/personal-site/ 🤠
