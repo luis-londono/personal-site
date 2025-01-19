@@ -9,6 +9,7 @@ const Routing = () => {
     <>
       <Routes>
         <Route exact path="/" element={<Intro />} />
+        <Route exact path="/personal-site" element={<Intro />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
