@@ -9,7 +9,7 @@ const Header = () => {
       <img id="banner" src={banner} alt="Luis Londono"></img>
       <div id="nav">
         <nav>
-          <NavLink to="/">
+          <NavLink to="personal-site">
             <i className="fa fa-home" aria-hidden="true"></i> Home
           </NavLink>{" "}
           <span className="vertical-pipe">|</span>{" "}
@@ -17,7 +17,7 @@ const Header = () => {
             <i className="fa fa-file" aria-hidden="true"></i> Resume
           </a>{" "}
           <span className="vertical-pipe">|</span>{" "}
-          <NavLink to="/contact">
+          <NavLink to="personal-site/contact">
             <i className="fa fa-phone" aria-hidden="true"></i> Contact
           </NavLink>
         </nav>

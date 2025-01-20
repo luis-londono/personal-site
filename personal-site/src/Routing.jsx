@@ -8,10 +8,10 @@ const Routing = () => {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Intro />} />
+        <Route exact path="/*" element={<Intro />} />
         <Route exact path="/personal-site" element={<Intro />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/personal-site/resume" element={<Resume />} />
+        <Route path="/personal-site/contact" element={<Contact />} />
       </Routes>
     </>
   );
