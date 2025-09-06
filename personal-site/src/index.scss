@@ -1,0 +1,327 @@
+// /*  
+// Luis Londono Personal Site!
+
+// credits: 
+//   spinning earth emoji by George Park
+
+// */
+
+// header,
+// main,
+// nav,
+// footer,
+// figure,
+// figcaption,
+// aside,
+// section,
+// article {
+//   display: block;
+// }
+
+// #wrapper {
+//   width: 55%;
+//   font-size: 20px;
+//   margin: 0 auto;
+//   min-width: 960px;
+//   max-width: 2048px;
+//   box-shadow: 3px 3px 3px #ededed;
+//   font-family: Bookman Old Style, "Times New Roman", serif;
+// }
+
+// #banner {
+//   background-repeat: no-repeat;
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   padding-bottom: 10px;
+//   max-width: 100%;
+//   height: auto;
+// }
+
+// #code {
+//   color: black;
+//   font-family: Consolas, monaco, monospace;
+// }
+
+// .row {
+//   margin-right: -15px;
+//   margin-left: -15px;
+// }
+
+// .footer {
+//   color: black;
+// }
+
+// ::selection {
+//   background: #cccccc; /* WebKit/Blink Browsers */
+// }
+// ::-moz-selection {
+//   background: #cccccc; /* Gecko Browsers */
+// }
+
+// a {
+//   color: black;
+//   text-decoration: none !important;
+//   font-family: Georgia, "Times New Roman", Times, serif;
+//   font-weight: bold;
+//   font-size: large;
+// }
+
+// /* Create two equal columns that floats next to each other */
+// .column {
+//   float: left;
+//   width: 100%;
+//   padding: 10px;
+// }
+
+// .left {
+//   width: 40%;
+// }
+
+// .right {
+//   width: 40%;
+// }
+
+// body {
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+// }
+
+// /* Clear floats after the columns */
+// .row:after {
+//   content: "";
+//   display: table;
+//   clear: both;
+// }
+
+// #nav {
+//   font-size: 26px;
+//   font-family: Bookman Old Style, georgia, serif;
+//   text-align: center;
+//   text-transform: uppercase;
+//   letter-spacing: 0px;
+//   margin-bottom: 20px;
+//   background-color: black;
+//   color: white;
+// }
+
+// #resume {
+//   width: 1700px;
+//   height: 1600px;
+// }
+
+// #cv {
+//   display: inline-block;
+//   width: 700px;
+//   height: 600px;
+// }
+
+// nav a {
+//   /* text-decoration: none !important; */
+//   color: white;
+//   font-size: 0.75em;
+//   font-family: Bookman Old Style, "Times New Roman", serif;
+//   padding: 10px 10px 10px 10px;
+// }
+
+// nav a:hover {
+//   background-color: #cccccc;
+//   color: white;
+//   transform: scale(1.4);
+//   border-radius: 15px;
+// }
+
+// main {
+//   background-color: #ffffff;
+//   padding: 25px 150px 200px 150px;
+//   min-height: 550px;
+//   display: block;
+//   padding-right: 25px;
+//   padding-left: 25px;
+// }
+
+// footer {
+//   text-align: center;
+//   font-style: italic;
+//   font-size: 16px;
+//   font-family: Bookman Old Style, "Times New Roman", serif;
+//   padding: 20px;
+//   margin-left: 30px;
+// }
+
+// footer a:hover {
+//   color: #cccccc;
+// }
+
+// .job-link {
+//   color: black !important;
+//   font-family: Georgia, "Times New Roman", Times, serif;
+//   font-size: medium;
+//   font-style: italic;
+//   font-weight: normal;
+//   text-decoration: none;
+// }
+
+// .job-link:hover{
+//   text-decoration: underline !important;
+//   font-size: large;
+// }
+
+// #headshot {
+//   background-repeat: no-repeat;
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 80%;
+//   border-radius: 15px;
+// }
+
+// #niko {
+//   background-image: url(images/niko.jpg);
+//   width: 525px;
+//   background-repeat: no-repeat;
+//   height: 525px;
+//   float: right;
+//   margin-left: 25px;
+//   border-radius: 8px;
+//   padding-top: 20%;
+//   padding-left: 28%;
+//   padding-right: 25%;
+// }
+
+// .btn-download {
+//   display: none;
+// }
+
+// /* TABLET */
+// @media only screen and (max-width: 64em) {
+//   header {
+//     width: auto;
+//   }
+
+//   .column {
+//     float: left;
+//     width: 100%;
+//     padding: 10px;
+//   }
+
+//   .left {
+//     width: 40%;
+//   }
+
+//   .right {
+//     width: 40%;
+//   }
+
+//   #wrapper {
+//     min-width: 0;
+//     width: auto;
+//     box-shadow: none;
+//     border-style: none;
+//   }
+
+//   nav {
+//     padding: 0;
+//   }
+
+//   footer {
+//     margin-left: 0;
+//   }
+// }
+
+// /* MOBILE */
+// @media only screen and (max-width: 37.5em) {
+//   header {
+//     width: auto;
+//   }
+
+//   #wrapper {
+//     min-width: 0;
+//     width: auto;
+//     box-shadow: none;
+//     border-style: none;
+//   }
+
+//   nav {
+//     font-size: 20px;
+//     padding: 0;
+//   }
+
+//   footer {
+//     margin-left: 0;
+//   }
+
+//   .body-content {
+//     margin-left: 0px;
+//   }
+
+//   #description {
+//     padding-left: 20px;
+//     padding-right: 20px;
+//   }
+
+//   #cv {
+//     display: none;
+//     visibility: hidden;
+//   }
+
+//   .btn-download {
+//     display: block;
+//     background-color: white !important;
+//     border: none !important;
+//     color: black !important;
+//     padding: 12px 30px !important;
+//     cursor: pointer !important;
+//     font-size: 20px !important;
+//   }
+
+//   /* Darker background on mouse-over */
+//   .btn-download:hover {
+//     background-color: #cccccc !important;
+//     transform: scale(1.1);
+//     border-radius: 15px;
+//   }
+
+//   .container-btn {
+//     height: 100px;
+//     position: relative;
+//   }
+
+//   .center {
+//     margin: 0;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     -ms-transform: translate(-50%, -50%);
+//     transform: translate(-50%, -50%);
+//   }
+// }
+
+// .emoji {
+//   font-size: 22px;
+//   margin: 6px 5px 6px 5px;
+//   text-align: center;
+// }
+
+// .emoji::after {
+//   animation-timing-function: linear;
+//   animation-iteration-count: infinite;
+// }
+
+// .earth::after {
+//   content: "🌎";
+//   --emoji-1: "🌍";
+//   --emoji-2: "🌏";
+//   animation-name: threeFrames;
+//   animation-duration: 1.5s;
+// }
+
+// @keyframes threeFrames {
+//   33.333% {
+//     content: var(--emoji-1);
+//   }
+
+//   66.666% {
+//     content: var(--emoji-2);
+//   }
+// }
