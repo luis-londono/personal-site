@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import banner from "../src/images/Banner_Skyline_Subtle_Smaller.png";
 import resume from "../src/images/resume.pdf";
