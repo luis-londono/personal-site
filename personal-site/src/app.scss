@@ -6,7 +6,7 @@ credits:
 
 */
 
-@import 'colors';
+@import "colors";
 
 header,
 main,
@@ -27,7 +27,10 @@ article {
   min-width: 960px;
   max-width: 2048px;
   box-shadow: 3px 3px 3px $light-grey;
-  font-family: Bookman Old Style, "Times New Roman", serif;
+  font-family:
+    Bookman Old Style,
+    "Times New Roman",
+    serif;
 }
 
 #banner {
@@ -98,7 +101,10 @@ body {
 
 #nav {
   font-size: 26px;
-  font-family: Bookman Old Style, georgia, serif;
+  font-family:
+    Bookman Old Style,
+    georgia,
+    serif;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0px;
@@ -110,7 +116,7 @@ body {
   border: solid;
 }
 
-.vertical-pipe{
+.vertical-pipe {
   color: $lighter-grey;
 }
 
@@ -129,7 +135,10 @@ nav a {
   /* text-decoration: none !important; */
   color: $white;
   font-size: 0.75em;
-  font-family: Bookman Old Style, "Times New Roman", serif;
+  font-family:
+    Bookman Old Style,
+    "Times New Roman",
+    serif;
   padding: 10px 10px 10px 10px;
 }
 
@@ -150,7 +159,10 @@ footer {
   text-align: center;
   font-style: italic;
   font-size: 16px;
-  font-family: Bookman Old Style, "Times New Roman", serif;
+  font-family:
+    Bookman Old Style,
+    "Times New Roman",
+    serif;
   padding: 20px;
   margin-left: 30px;
 }
@@ -168,7 +180,7 @@ footer a:hover {
   text-decoration: none;
 }
 
-.job-link:hover{
+.job-link:hover {
   text-decoration: underline !important;
   font-size: large;
 }
