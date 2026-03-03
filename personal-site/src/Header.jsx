@@ -1,12 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import banner from "../src/images/luis_banner.png";
+import banner from "../src/images/Banner_Skyline_Subtle_Smaller.png";
 import resume from "../src/images/resume.pdf";
 
 const Header = () => {
   return (
     <>
-      <img id="banner" src={banner} alt="Luis Londono"></img>
+      {/* Banner image generated using ChatGPT  */}
+      <img id="banner" src={banner} alt="Luis Londono" />
       <div id="nav">
         <nav>
           <NavLink to="personal-site">

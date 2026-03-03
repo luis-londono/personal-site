@@ -7,8 +7,8 @@ const Intro = () => {
       <div className="row">
         <div id="description" className="col-md-6">
           <p />
-          My name's Luis and I'm a software developer. I've been professionaly
-          writing
+          My name's Luis and I'm a Senior Software Engineer. I've been
+          professionaly writing
           <code id="code"> &lt;code/&gt; </code>
           since 2015 and absolutely love what I do!
           <p />
