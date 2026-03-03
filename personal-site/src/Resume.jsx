@@ -1,4 +1,3 @@
-import React from "react";
 import resume from "../src/images/resume.pdf";
 
 const Resume = () => {

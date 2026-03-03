@@ -1,8 +1,7 @@
-import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Contact from "./Contact";
 import Intro from "./Intro";
 import Resume from "./Resume";
-import Contact from "./Contact";
-import { Routes, Route } from "react-router-dom";
 
 const Routing = () => {
   return (
