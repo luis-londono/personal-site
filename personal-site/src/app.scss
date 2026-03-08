@@ -116,6 +116,13 @@ body {
   border: solid;
 }
 
+/* hide fa icons on narrow screens */
+@media (max-width: 600px) {
+  #nav i.fa {
+    display: none;
+  }
+}
+
 .vertical-pipe {
   color: $lighter-grey;
 }
