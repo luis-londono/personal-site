@@ -5,13 +5,11 @@ import Routing from "./Routing";
 
 function App() {
   return (
-    <>
-      <div id="wrapper">
-        <Header />
-        <Routing />
-        <Footer />
-      </div>
-    </>
+    <div id="wrapper">
+      <Header />
+      <Routing />
+      <Footer />
+    </div>
   );
 }
 
