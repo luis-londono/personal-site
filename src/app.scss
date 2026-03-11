@@ -201,18 +201,10 @@ footer a:hover {
   border-radius: 15px;
 }
 
-// #niko {
-//   background-image: url(images/niko.jpg);
-//   width: 525px;
-//   background-repeat: no-repeat;
-//   height: 525px;
-//   float: right;
-//   margin-left: 25px;
-//   border-radius: 8px;
-//   padding-top: 20%;
-//   padding-left: 28%;
-//   padding-right: 25%;
-// }
+#headshot:hover {
+  transform: scale(1.05);
+  filter: grayscale(75%);
+}
 
 .btn-download {
   display: none;
