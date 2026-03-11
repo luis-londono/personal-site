@@ -41,5 +41,11 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "overrides": {
+    "react-scripts": "5.0.1"
+  },
+  "resolutions": {
+    "react-scripts": "5.0.1"
   }
 }
