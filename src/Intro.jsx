@@ -8,8 +8,9 @@ const Intro = () => {
         <div id="description" className="col-md-6">
           <p />
           Hi, I’m Luis — a Senior Software Engineer working full-stack since
-          2015. I focus on designing solutions, guiding technical decisions, and
-          turning complex problems into working systems.
+          2015. I focus on designing and implementing solutions, guiding
+          technical decisions, and turning complex problems into working
+          systems.
           <p />
           After graduating from the University of Missouri–Kansas City, I
           started at
