@@ -1,5 +1,5 @@
 import banner from "./images/Banner_Skyline_Subtle_Smaller.png";
-import bannerMobile from "./images/Banner_Skyline_Subtle_Mobile.png";
+import bannerMobile from "./images/mobile_banner.png";
 
 const Banner = () => {
   /* Banner image generated using ChatGPT  */
