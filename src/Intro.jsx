@@ -7,13 +7,12 @@ const Intro = () => {
       <div className="row">
         <div id="description" className="col-md-6">
           <p />
-          My name's Luis and I'm a Senior Software Engineer. I've been
-          professionaly writing
-          <code id="code"> &lt;code/&gt; </code>
-          since 2015 and absolutely love what I do!
+          Hi, I’m Luis — a Senior Software Engineer working full-stack since
+          2015. I enjoy building features, solving problems, and improving my
+          skills every day.
           <p />
-          Shortly after graduating from the University of Missouri-Kansas City,
-          I found a really great job at
+          After graduating from the University of Missouri–Kansas City, I
+          started at
           <a
             id="neu"
             className="job-link"
@@ -24,8 +23,8 @@ const Intro = () => {
             {" "}
             NeuAnalytics
           </a>{" "}
-          as a Software Developer and Team Lead. In August of 2022, I began
-          working at{" "}
+          as a Software Developer and eventually became a Team Lead. In August
+          2022, I joined
           <a
             id="psi"
             className="job-link"
@@ -36,13 +35,11 @@ const Intro = () => {
             {" "}
             PSI
           </a>{" "}
-          as a Senior Software Engineer. I'm excited for the future and I try
-          and push myself to become a better developer each day.
+          as a Senior Software Engineer, where I continue to work on challenging
+          projects across both front-end and back-end systems.
           <p />
-          I love spending my time with family, hanging out with my friends,
-          traveling the
-          <span className="emoji earth" />
-          and supporting local Kansas City sports teams.
+          Outside of work, I spend time with family and friends, travel when I
+          can, and support Kansas City sports teams.
           <p />
           Thanks for visiting my page!
         </div>
@@ -57,17 +54,17 @@ const Intro = () => {
 
 export default Intro;
 
+const hour = new Date().getHours();
+
+const title =
+  hour > 18
+    ? "Good Evening! 🌃"
+    : hour > 12
+      ? "Good Afternoon! 🌤"
+      : hour >= 0
+        ? "Good Morning! 🌞"
+        : "Hello!";
+
 const Greeting = () => {
-  const hour = new Date().getHours();
-
-  const howdy =
-    hour > 18
-      ? "Good Evening! 🌃"
-      : hour > 12
-        ? "Good Afternoon! 🌤"
-        : hour >= 0
-          ? "Good Morning! 🌞"
-          : "Hello!";
-
-  return <h1 id="welcome">{howdy}</h1>;
+  return <h1 id="welcome">{title}</h1>;
 };
