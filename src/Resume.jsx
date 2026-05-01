@@ -1,4 +1,4 @@
-import resume from "../src/images/resume.pdf";
+import resume from "./images/LuisLondono.pdf";
 
 const Resume = () => {
   return (
@@ -24,7 +24,7 @@ const Resume = () => {
             className="btn-download"
             role="button"
             href={resume}
-            download="luis_londono"
+            download="LuisLondono.pdf"
           >
             Download <i className="fa fa-download"></i>
           </a>
